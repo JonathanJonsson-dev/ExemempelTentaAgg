@@ -24,5 +24,13 @@ namespace Uppgift4
         {
             InitializeComponent();
         }
+
+        private void btn_Click(object sender, RoutedEventArgs e)
+        {
+            HenHouse henHouse = new HenHouse();
+            henHouse.CreateHenHouse(250);
+            
+
+        }
     }
 }
