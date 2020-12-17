@@ -29,6 +29,7 @@ namespace Uppgift4
         {
             HenHouse henHouse = new HenHouse();
             henHouse.CreateHenHouse(250);
+            List<Egg> eggs = henHouse.CollectEggs(); // Lägger alla ägg i en lista
             
 
         }

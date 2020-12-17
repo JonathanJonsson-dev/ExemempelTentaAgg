@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift1", "Uppgift1\Uppgift1.csproj", "{4CC2D2C6-9824-4B00-8919-1FA10868912D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift1", "Uppgift1\Uppgift1.csproj", "{4CC2D2C6-9824-4B00-8919-1FA10868912D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift2", "Uppgift2\Uppgift2.csproj", "{BD2DF4CA-3DFD-458A-B2A5-CB6C1607FFE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift2", "Uppgift2\Uppgift2.csproj", "{BD2DF4CA-3DFD-458A-B2A5-CB6C1607FFE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift3", "Uppgift3\Uppgift3.csproj", "{3F497BCC-D131-4DCD-9A08-7ECC4215A192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift3", "Uppgift3\Uppgift3.csproj", "{3F497BCC-D131-4DCD-9A08-7ECC4215A192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift4", "Uppgift4\Uppgift4.csproj", "{BBD61F4C-ED6D-45C4-8C00-1B0118C05823}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift4", "Uppgift4\Uppgift4.csproj", "{BBD61F4C-ED6D-45C4-8C00-1B0118C05823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift10", "Uppgift10\Uppgift10.csproj", "{FC845243-B717-4E41-9114-8C6492E8244F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BBD61F4C-ED6D-45C4-8C00-1B0118C05823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBD61F4C-ED6D-45C4-8C00-1B0118C05823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBD61F4C-ED6D-45C4-8C00-1B0118C05823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC845243-B717-4E41-9114-8C6492E8244F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC845243-B717-4E41-9114-8C6492E8244F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC845243-B717-4E41-9114-8C6492E8244F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC845243-B717-4E41-9114-8C6492E8244F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

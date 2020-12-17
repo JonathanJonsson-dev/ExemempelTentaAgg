@@ -6,7 +6,7 @@ namespace Uppgift4
 {
     public class Hen : HenHouse
     {
-        
+
         public string Breed { get; set; }
         public double Weight { get; set; }
 
@@ -28,8 +28,22 @@ namespace Uppgift4
             {
                 return 0;
             }
-            
+
         }
 
+        public Egg LayEgg2() // Vill returnera ett ägg
+        {
+            Random random = new Random();
+            double randomNumber = random.NextDouble();
+            if (randomNumber <= 0.48)
+            {
+                return new Egg(random.Next(20, 80)); // Måste nya upp ägget innan jag returnerar den. 
+            }
+            else
+            {
+                return null;
+            }
+
+        }
     }
 }
